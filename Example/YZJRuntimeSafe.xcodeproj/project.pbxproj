@@ -7,6 +7,7 @@
 	objects = {
 
 /* Begin PBXBuildFile section */
+		519D55425BA36C5F9C55DCE2 /* Pods_YZJRuntimeSafe.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 25BB9FF7E3C6118977021F37 /* Pods_YZJRuntimeSafe.framework */; };
 		AC6C48B521099BF2000FF8EE /* AppDelegate.m in Sources */ = {isa = PBXBuildFile; fileRef = AC6C48B421099BF2000FF8EE /* AppDelegate.m */; };
 		AC6C48B821099BF2000FF8EE /* ViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = AC6C48B721099BF2000FF8EE /* ViewController.m */; };
 		AC6C48BB21099BF2000FF8EE /* Main.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = AC6C48B921099BF2000FF8EE /* Main.storyboard */; };
@@ -15,6 +16,7 @@
 		AC6C48C321099BF3000FF8EE /* main.m in Sources */ = {isa = PBXBuildFile; fileRef = AC6C48C221099BF3000FF8EE /* main.m */; };
 		AC6C48CD21099BF3000FF8EE /* YZJRuntimeSafeTests.m in Sources */ = {isa = PBXBuildFile; fileRef = AC6C48CC21099BF3000FF8EE /* YZJRuntimeSafeTests.m */; };
 		AC6C48D821099BF4000FF8EE /* YZJRuntimeSafeUITests.m in Sources */ = {isa = PBXBuildFile; fileRef = AC6C48D721099BF4000FF8EE /* YZJRuntimeSafeUITests.m */; };
+		AC6C48E621099E62000FF8EE /* YZJRuntimeSafe.podspec in Resources */ = {isa = PBXBuildFile; fileRef = AC6C48E521099E62000FF8EE /* YZJRuntimeSafe.podspec */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXContainerItemProxy section */
@@ -35,6 +37,9 @@
 /* End PBXContainerItemProxy section */
 
 /* Begin PBXFileReference section */
+		25BB9FF7E3C6118977021F37 /* Pods_YZJRuntimeSafe.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; path = Pods_YZJRuntimeSafe.framework; sourceTree = BUILT_PRODUCTS_DIR; };
+		32F4B145F2CC51CB957771E0 /* Pods-YZJRuntimeSafe.debug.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-YZJRuntimeSafe.debug.xcconfig"; path = "Pods/Target Support Files/Pods-YZJRuntimeSafe/Pods-YZJRuntimeSafe.debug.xcconfig"; sourceTree = "<group>"; };
+		463DE37A5A5BAD7346367F52 /* Pods-YZJRuntimeSafe.release.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-YZJRuntimeSafe.release.xcconfig"; path = "Pods/Target Support Files/Pods-YZJRuntimeSafe/Pods-YZJRuntimeSafe.release.xcconfig"; sourceTree = "<group>"; };
 		AC6C48B021099BF2000FF8EE /* YZJRuntimeSafe.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = YZJRuntimeSafe.app; sourceTree = BUILT_PRODUCTS_DIR; };
 		AC6C48B321099BF2000FF8EE /* AppDelegate.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = AppDelegate.h; sourceTree = "<group>"; };
 		AC6C48B421099BF2000FF8EE /* AppDelegate.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = AppDelegate.m; sourceTree = "<group>"; };
@@ -51,6 +56,7 @@
 		AC6C48D321099BF4000FF8EE /* YZJRuntimeSafeUITests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = YZJRuntimeSafeUITests.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
 		AC6C48D721099BF4000FF8EE /* YZJRuntimeSafeUITests.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = YZJRuntimeSafeUITests.m; sourceTree = "<group>"; };
 		AC6C48D921099BF4000FF8EE /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		AC6C48E521099E62000FF8EE /* YZJRuntimeSafe.podspec */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = text; name = YZJRuntimeSafe.podspec; path = ../YZJRuntimeSafe.podspec; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -58,6 +64,7 @@
 			isa = PBXFrameworksBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				519D55425BA36C5F9C55DCE2 /* Pods_YZJRuntimeSafe.framework in Frameworks */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -78,13 +85,33 @@
 /* End PBXFrameworksBuildPhase section */
 
 /* Begin PBXGroup section */
+		75F50718603408FD1BCBD160 /* Frameworks */ = {
+			isa = PBXGroup;
+			children = (
+				25BB9FF7E3C6118977021F37 /* Pods_YZJRuntimeSafe.framework */,
+			);
+			name = Frameworks;
+			sourceTree = "<group>";
+		};
+		82E3DB4D22582C70A20E7BA4 /* Pods */ = {
+			isa = PBXGroup;
+			children = (
+				32F4B145F2CC51CB957771E0 /* Pods-YZJRuntimeSafe.debug.xcconfig */,
+				463DE37A5A5BAD7346367F52 /* Pods-YZJRuntimeSafe.release.xcconfig */,
+			);
+			name = Pods;
+			sourceTree = "<group>";
+		};
 		AC6C48A721099BF2000FF8EE = {
 			isa = PBXGroup;
 			children = (
+				AC6C48E521099E62000FF8EE /* YZJRuntimeSafe.podspec */,
 				AC6C48B221099BF2000FF8EE /* YZJRuntimeSafe */,
 				AC6C48CB21099BF3000FF8EE /* YZJRuntimeSafeTests */,
 				AC6C48D621099BF4000FF8EE /* YZJRuntimeSafeUITests */,
 				AC6C48B121099BF2000FF8EE /* Products */,
+				82E3DB4D22582C70A20E7BA4 /* Pods */,
+				75F50718603408FD1BCBD160 /* Frameworks */,
 			);
 			sourceTree = "<group>";
 		};
@@ -139,6 +166,7 @@
 			isa = PBXNativeTarget;
 			buildConfigurationList = AC6C48DC21099BF4000FF8EE /* Build configuration list for PBXNativeTarget "YZJRuntimeSafe" */;
 			buildPhases = (
+				5E617F5FAA7E2047B71E50AC /* [CP] Check Pods Manifest.lock */,
 				AC6C48AC21099BF2000FF8EE /* Sources */,
 				AC6C48AD21099BF2000FF8EE /* Frameworks */,
 				AC6C48AE21099BF2000FF8EE /* Resources */,
@@ -237,6 +265,7 @@
 			files = (
 				AC6C48C021099BF3000FF8EE /* LaunchScreen.storyboard in Resources */,
 				AC6C48BD21099BF3000FF8EE /* Assets.xcassets in Resources */,
+				AC6C48E621099E62000FF8EE /* YZJRuntimeSafe.podspec in Resources */,
 				AC6C48BB21099BF2000FF8EE /* Main.storyboard in Resources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
@@ -256,6 +285,27 @@
 			runOnlyForDeploymentPostprocessing = 0;
 		};
 /* End PBXResourcesBuildPhase section */
+
+/* Begin PBXShellScriptBuildPhase section */
+		5E617F5FAA7E2047B71E50AC /* [CP] Check Pods Manifest.lock */ = {
+			isa = PBXShellScriptBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			inputPaths = (
+				"${PODS_PODFILE_DIR_PATH}/Podfile.lock",
+				"${PODS_ROOT}/Manifest.lock",
+			);
+			name = "[CP] Check Pods Manifest.lock";
+			outputPaths = (
+				"$(DERIVED_FILE_DIR)/Pods-YZJRuntimeSafe-checkManifestLockResult.txt",
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = "diff \"${PODS_PODFILE_DIR_PATH}/Podfile.lock\" \"${PODS_ROOT}/Manifest.lock\" > /dev/null\nif [ $? != 0 ] ; then\n    # print error to STDERR\n    echo \"error: The sandbox is not in sync with the Podfile.lock. Run 'pod install' or update your CocoaPods installation.\" >&2\n    exit 1\nfi\n# This output is used by Xcode 'outputs' to avoid re-running this script phase.\necho \"SUCCESS\" > \"${SCRIPT_OUTPUT_FILE_0}\"\n";
+			showEnvVarsInLog = 0;
+		};
+/* End PBXShellScriptBuildPhase section */
 
 /* Begin PBXSourcesBuildPhase section */
 		AC6C48AC21099BF2000FF8EE /* Sources */ = {
@@ -431,6 +481,7 @@
 		};
 		AC6C48DD21099BF4000FF8EE /* Debug */ = {
 			isa = XCBuildConfiguration;
+			baseConfigurationReference = 32F4B145F2CC51CB957771E0 /* Pods-YZJRuntimeSafe.debug.xcconfig */;
 			buildSettings = {
 				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
 				CODE_SIGN_STYLE = Automatic;
@@ -448,6 +499,7 @@
 		};
 		AC6C48DE21099BF4000FF8EE /* Release */ = {
 			isa = XCBuildConfiguration;
+			baseConfigurationReference = 463DE37A5A5BAD7346367F52 /* Pods-YZJRuntimeSafe.release.xcconfig */;
 			buildSettings = {
 				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
 				CODE_SIGN_STYLE = Automatic;

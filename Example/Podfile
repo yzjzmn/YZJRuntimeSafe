@@ -1,0 +1,8 @@
+use_frameworks!
+#source 'https://github.com/yzjzmn/YZJRuntimeSafe.git'
+source 'https://github.com/CocoaPods/Specs.git'  # 官方库
+target 'YZJRuntimeSafe' do
+
+  pod 'YZJRuntimeSafe', :path => '../'
+
+end

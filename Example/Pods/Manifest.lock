@@ -1,0 +1,16 @@
+PODS:
+  - YZJRuntimeSafe (0.0.1)
+
+DEPENDENCIES:
+  - YZJRuntimeSafe (from `../`)
+
+EXTERNAL SOURCES:
+  YZJRuntimeSafe:
+    :path: "../"
+
+SPEC CHECKSUMS:
+  YZJRuntimeSafe: b8445580d16fa2e840b7fac36741e9090b257c78
+
+PODFILE CHECKSUM: 95db20dcac040c445a5608a0161f8146f8adbbce
+
+COCOAPODS: 1.5.3
