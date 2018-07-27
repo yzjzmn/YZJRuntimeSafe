@@ -16,7 +16,7 @@ Pod::Spec.new do |s|
   #
 
   s.name         = "YZJRuntimeSafe"
-  s.version      = "0.0.1"
+  s.version      = "0.0.2"
   s.summary      = "方法交换实现数组和字典的稳定"
 
   # This description is used to generate tags and improve search results.
@@ -40,7 +40,6 @@ Pod::Spec.new do |s|
   #
 
   s.license      = "MIT (example)"
-  s.license      = { :type => "MIT", :file => "FILE_LICENSE" }
 
 
   # ――― Author Metadata  ――――――――――――――――――――――――――――――――――――――――――――――――――――――――― #
@@ -80,7 +79,7 @@ Pod::Spec.new do |s|
   #  Supports git, hg, bzr, svn and HTTP.
   #
 
-  s.source       = { :git => "https://github.com/yzjzmn/YZJRuntimeSafe/tree/master.git", :tag => "#{s.version}" }
+  s.source       = { :git => "https://github.com/yzjzmn/YZJRuntimeSafe.git", :tag => "#{s.version}" }
 
 
   # ――― Source Code ―――――――――――――――――――――――――――――――――――――――――――――――――――――――――――――― #

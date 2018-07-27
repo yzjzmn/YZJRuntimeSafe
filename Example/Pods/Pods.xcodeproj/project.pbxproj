@@ -14,6 +14,8 @@
 		AC6C48FD2109D0A8000FF8EE /* NSObject+YZJSwizzled.m in Sources */ = {isa = PBXBuildFile; fileRef = AC6C48F72109D0A8000FF8EE /* NSObject+YZJSwizzled.m */; };
 		AC6C48FE2109D0A8000FF8EE /* NSMutableArray+YZJSafe.h in Headers */ = {isa = PBXBuildFile; fileRef = AC6C48F82109D0A8000FF8EE /* NSMutableArray+YZJSafe.h */; };
 		AC6C48FF2109D0A8000FF8EE /* NSMutableArray+YZJSafe.m in Sources */ = {isa = PBXBuildFile; fileRef = AC6C48F92109D0A8000FF8EE /* NSMutableArray+YZJSafe.m */; };
+		AC6C4902210AB8CA000FF8EE /* NSArray+YZJSafe.h in Headers */ = {isa = PBXBuildFile; fileRef = AC6C4900210AB8CA000FF8EE /* NSArray+YZJSafe.h */; };
+		AC6C4903210AB8CA000FF8EE /* NSArray+YZJSafe.m in Sources */ = {isa = PBXBuildFile; fileRef = AC6C4901210AB8CA000FF8EE /* NSArray+YZJSafe.m */; };
 		EAFF16FF9DAA11FC1A5173767647D83E /* Foundation.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 5A16F4CFC63FAC439D7A04994F579A03 /* Foundation.framework */; };
 		FA0C37BECD9B094C306149BF19A556EF /* Pods-YZJRuntimeSafe-dummy.m in Sources */ = {isa = PBXBuildFile; fileRef = 39E7CA09A9FE25E6D6A1A7C2ABEACCC1 /* Pods-YZJRuntimeSafe-dummy.m */; };
 /* End PBXBuildFile section */
@@ -35,6 +37,8 @@
 		AC6C48F72109D0A8000FF8EE /* NSObject+YZJSwizzled.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; name = "NSObject+YZJSwizzled.m"; path = "YZJRuntimeSafe/Classes/NSObject+YZJSwizzled.m"; sourceTree = "<group>"; };
 		AC6C48F82109D0A8000FF8EE /* NSMutableArray+YZJSafe.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; name = "NSMutableArray+YZJSafe.h"; path = "YZJRuntimeSafe/Classes/NSMutableArray+YZJSafe.h"; sourceTree = "<group>"; };
 		AC6C48F92109D0A8000FF8EE /* NSMutableArray+YZJSafe.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; name = "NSMutableArray+YZJSafe.m"; path = "YZJRuntimeSafe/Classes/NSMutableArray+YZJSafe.m"; sourceTree = "<group>"; };
+		AC6C4900210AB8CA000FF8EE /* NSArray+YZJSafe.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; name = "NSArray+YZJSafe.h"; path = "YZJRuntimeSafe/Classes/NSArray+YZJSafe.h"; sourceTree = "<group>"; };
+		AC6C4901210AB8CA000FF8EE /* NSArray+YZJSafe.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; name = "NSArray+YZJSafe.m"; path = "YZJRuntimeSafe/Classes/NSArray+YZJSafe.m"; sourceTree = "<group>"; };
 		AD7758BC78A1D14DFB34E1AEF309F9C0 /* Pods-YZJRuntimeSafe.release.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; path = "Pods-YZJRuntimeSafe.release.xcconfig"; sourceTree = "<group>"; };
 		CA0A8EB9A08B4BCB1A23C515D0F31521 /* Pods-YZJRuntimeSafe-umbrella.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; path = "Pods-YZJRuntimeSafe-umbrella.h"; sourceTree = "<group>"; };
 		F1189995B76C041BBD27DBA239B3624E /* Info.plist */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
@@ -130,6 +134,8 @@
 				AC6C48F62109D0A8000FF8EE /* NSMutableDictionary+YZJSafe.m */,
 				AC6C48F52109D0A8000FF8EE /* NSObject+YZJSwizzled.h */,
 				AC6C48F72109D0A8000FF8EE /* NSObject+YZJSwizzled.m */,
+				AC6C4900210AB8CA000FF8EE /* NSArray+YZJSafe.h */,
+				AC6C4901210AB8CA000FF8EE /* NSArray+YZJSafe.m */,
 			);
 			name = YZJRuntimeSafe;
 			path = ../..;
@@ -145,6 +151,7 @@
 				9495C8365B2D26A163E7EAC4A7795B96 /* Pods-YZJRuntimeSafe-umbrella.h in Headers */,
 				AC6C48FA2109D0A8000FF8EE /* NSMutableDictionary+YZJSafe.h in Headers */,
 				AC6C48FB2109D0A8000FF8EE /* NSObject+YZJSwizzled.h in Headers */,
+				AC6C4902210AB8CA000FF8EE /* NSArray+YZJSafe.h in Headers */,
 				AC6C48FE2109D0A8000FF8EE /* NSMutableArray+YZJSafe.h in Headers */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
@@ -203,6 +210,7 @@
 				AC6C48FF2109D0A8000FF8EE /* NSMutableArray+YZJSafe.m in Sources */,
 				AC6C48FD2109D0A8000FF8EE /* NSObject+YZJSwizzled.m in Sources */,
 				AC6C48FC2109D0A8000FF8EE /* NSMutableDictionary+YZJSafe.m in Sources */,
+				AC6C4903210AB8CA000FF8EE /* NSArray+YZJSafe.m in Sources */,
 				FA0C37BECD9B094C306149BF19A556EF /* Pods-YZJRuntimeSafe-dummy.m in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
